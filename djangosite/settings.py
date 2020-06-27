@@ -139,3 +139,10 @@ MEDIA_ROOT = os.path.join(BASE_DIR,'static/images')
 
 
 CRISPY_TEMPLATE_PACK="bootstrap4"
+
+CLOUDINARY_STORAGE = {
+    'CLOUD_NAME': 'mamadhssg',
+    'API_KEY': '133252386891318',
+    'API_SECRET': 'Qw0FHRULQLAT8RQ9AjgREM5Syr8',
+}
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'

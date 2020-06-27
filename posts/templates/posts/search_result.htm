@@ -1,0 +1,14 @@
+{% extends 'posts/base.htm'%}
+
+{% load static %}
+
+{% block content %}
+
+{% for post in queryset %}
+
+    <a href="{% url 'detail' post.id %}">{{post.title}}</a>
+
+
+{% endfor %}
+
+{% endblock %}

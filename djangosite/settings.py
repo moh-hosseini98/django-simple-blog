@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'posts',
     'accounts',
     'crispy_forms',
+    'cloudinary_storage',
+    'cloudinary',
 ]
 
 MIDDLEWARE = [
